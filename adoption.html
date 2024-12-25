@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption - Animal Haven</title>
+    <link rel="stylesheet" href="adoption style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Animal Haven</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="care.html">Care Tips</a>
+                <a href="adoption.html">Adoption</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner">
+        <h1>Adopt a Pet</h1>
+        <p>Find your new best friend today!</p>
+    </div>
+
+    <div class="container">
+        <h2>Adoption Form</h2>
+        <form action="submit_adoption_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="animal">Animal you want to adopt:</label>
+            <select id="animal" name="animal" required>
+                <option value="">Select an animal</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="rabbit">Bird</option>
+                <option value="bird">Turtle</option>
+                <option value="bird">rabbit</option>
+                <option value="bird">Fish</option>
+                <option value="bird">Elephants</option>
+                <option value="bird">Hummingbird</option>
+            </select>
+
+            <label for="reason">Why do you want to adopt this animal?</label>
+            <input id="reason" name="reason"required></input>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Animal Haven | Designed with ❤️ for Nature
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
